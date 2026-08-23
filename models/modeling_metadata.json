@@ -1,0 +1,22 @@
+{
+  "modelo_escolhido": "Random Forest",
+  "hiperparametros": {
+    "classificador__max_depth": null,
+    "classificador__min_samples_leaf": 1,
+    "classificador__n_estimators": 400
+  },
+  "metrica_usada_para_selecao": "AUC-PR (average_precision) médio em validação cruzada (5 folds estratificados)",
+  "metricas_teste": {
+    "F1-score": 0.13333333333333333,
+    "Recall": 0.09090909090909091,
+    "AUC-ROC": 0.7450592885375494,
+    "AUC-PR": 0.21275394329203634
+  },
+  "arquivo_modelo": "../models/modelo_final_random_forest.joblib",
+  "artefatos_de_preprocessamento_necessarios": [
+    "../models/imputer_numerico.joblib",
+    "../models/imputer_binario.joblib",
+    "../models/scaler_numerico.joblib",
+    "../models/preprocessing_metadata.json"
+  ]
+}

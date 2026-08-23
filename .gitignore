@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ambiente / segredos
+.env
+.env.*
+*.secrets
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Artefatos de modelo (habilite se os arquivos ficarem grandes demais para o GitHub)
+# models/*.pkl
+# models/*.joblib
+# models/*.h5
+
+# Dados processados grandes (mantenha data/raw versionado; descomente se necessário)
+# data/processed/*
+# data/external/*

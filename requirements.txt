@@ -1,0 +1,16 @@
+# Dependências do projeto (Fase 1).
+# pandas/numpy/scipy/matplotlib/seaborn/scikit-learn/joblib já vêm pré-instaladas no Colab.
+# imbalanced-learn e shap NÃO vêm pré-instaladas — os notebooks que precisam delas
+# (03_modeling.ipynb e 05_interpretability.ipynb) já instalam automaticamente via
+# %pip install -q caso não estejam disponíveis.
+# Uso local: pip install -r requirements.txt
+
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+joblib
+shap

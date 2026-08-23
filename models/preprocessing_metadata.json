@@ -1,0 +1,50 @@
+{
+  "target": "Biopsy",
+  "colunas_numericas": [
+    "Age",
+    "Number of sexual partners",
+    "First sexual intercourse",
+    "Num of pregnancies",
+    "Smokes (years)",
+    "Smokes (packs/year)",
+    "Hormonal Contraceptives (years)",
+    "IUD (years)",
+    "STDs (number)",
+    "STDs: Number of diagnosis"
+  ],
+  "colunas_binarias": [
+    "Smokes",
+    "Hormonal Contraceptives",
+    "IUD",
+    "STDs",
+    "STDs:condylomatosis",
+    "STDs:cervical condylomatosis",
+    "STDs:vaginal condylomatosis",
+    "STDs:vulvo-perineal condylomatosis",
+    "STDs:syphilis",
+    "STDs:pelvic inflammatory disease",
+    "STDs:genital herpes",
+    "STDs:molluscum contagiosum",
+    "STDs:AIDS",
+    "STDs:HIV",
+    "STDs:Hepatitis B",
+    "STDs:HPV"
+  ],
+  "colunas_assimetricas_log1p": [
+    "Number of sexual partners",
+    "Num of pregnancies"
+  ],
+  "colunas_removidas_por_nulos": [
+    "STDs: Time since first diagnosis",
+    "STDs: Time since last diagnosis"
+  ],
+  "colunas_removidas_por_vazamento": [
+    "Hinselmann",
+    "Schiller",
+    "Citology",
+    "Dx",
+    "Dx:Cancer",
+    "Dx:CIN",
+    "Dx:HPV"
+  ]
+}
